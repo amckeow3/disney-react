@@ -1,0 +1,45 @@
+@import "~bootstrap/scss/bootstrap";
+
+.App {
+    text-align: center;
+  }
+  
+  body {
+    background-image: url("https://sat02pap001files.storage.live.com/y4myk7dAvIr6GkOJCmoH-nc5K3DIjgLUoItNaPSpzUqYaSA8A5bSGctPgh5NoS98nzkobtrUk9R3mDOsl3OgyxFABLePrfxbChYMaZbfgmRmhaO0rCnHj1h479XOvGh_2Qr0DcqkjKWHtf1e8N2a71JmCLFrNfj-UdDH3ah0RKb_kaub9iUJB05lZSoGY7z4D11?width=1216&height=965&cropmode=none")
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
